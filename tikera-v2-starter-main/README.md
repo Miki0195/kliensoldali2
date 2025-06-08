@@ -1,6 +1,5 @@
-```
-<Hallgató neve>
-<Neptun kódja>
+<Buchsbaum Miklós>
+<T5K17G>
 Kliensoldali webprogramozás - beadandó
 Ezt a megoldást a fent írt hallgató küldte be és készítette a Kliensoldali webprogramozás kurzus számonkéréséhez.
 Kijelentem, hogy ez a megoldás a saját munkám. Nem másoltam vagy használtam harmadik féltől
@@ -10,40 +9,39 @@ Az Eötvös Loránd Tudományegyetem Hallgatói Követelményrendszere
 amíg egy hallgató egy másik hallgató munkáját - vagy legalábbis annak jelentős részét -
 saját munkájaként mutatja be, az fegyelmi vétségnek számít.
 A fegyelmi vétség legsúlyosabb következménye a hallgató elbocsátása az egyetemről.
-```
+
 ## Pontozás
 
-- [ ] React használata (kötelező)
-- [ ] Redux használata (kötelező)
-- [ ] README.md fájl kitöltve
-- [ ] Moziműsor: A filmek és vetítések megfelelően jelennek meg az API-ból lekérve (2pt)
-- [ ] Moziműsor: Hetek között lépkedni tudunk, látjuk a dátumokat (2pt)
-- [ ] Felhasználókezelés: Regisztráció működik (1pt)
-- [ ] Felhasználókezelés: Bejelentkezés működik (1pt)
-- [ ] Navigáció: Navigáció megfelelően változik a be- és kijelentkezésnek megfelelően, bejelentkezés után a felhasználó neve megjelenik az oldalon (2pt)
-- [ ] Navigáció: Az oldal kezeli, hogy felhasználóként vagy adminisztrátorként jelentkezünk be, más-más navigációt jelenít meg (1pt)
-- [ ] Felhasználókezelés: Kijelentkezés működik (1pt)
-- [ ] Jegyfoglalás: A foglalt helyekre a REST API-ból lekérve foglalni már nem tudunk (2pt)
-- [ ] Jegyfoglalás: A felhasználó által vásárolt jegyek a REST API-ban mentésre kerülnek (2pt)
-- [ ] Jegyfoglalás: A felhasználó kap visszajelzést kap a sikeres/sikertelen foglalásról. (1pt)
-- [ ] Jegyeim oldal: A felhasználó jegyei megjelennek a profilján (2pt)
-- [ ] Admin funkciók: Film hozzáadása működik (2pt)
-- [ ] Admin funkciók: Vetítés hozzáadása működik (2pt)
-- [ ] Admin funkciók: Film szerkesztése működik (1pt)
-- [ ] Admin funkciók: Vetítés szerkesztése működik (1pt)
-- [ ] Admin funkciók: Film és vetítés törlése működik (1pt)
-- [ ] Admin funkciók: A filmek és vetítések módosításának és törlésének sikerességéről az admin visszajelzést kap (2pt)
-- [ ] Mobilbarát reszponzív megjelenés, mobilnézetben is jól használható az oldal (2pt)
+- [x] React használata (kötelező)
+- [x] Redux használata (kötelező)
+- [x] README.md fájl kitöltve
+- [x] Moziműsor: A filmek és vetítések megfelelően jelennek meg az API-ból lekérve (2pt)
+- [x] Moziműsor: Hetek között lépkedni tudunk, látjuk a dátumokat (2pt)
+- [x] Felhasználókezelés: Regisztráció működik (1pt)
+- [x] Felhasználókezelés: Bejelentkezés működik (1pt)
+- [x] Navigáció: Navigációs sáv tartalma megfelelően változik a be- és kijelentkezésnek megfelelően, bejelentkezés után a felhasználó neve megjelenik a navigációs sávban (2pt)
+- [x] Navigáció: Navigációs sáv tartalma megfelelően változik a felhasználó 'role' attribútuma alapján, adminként megjelennek a releváns opciók (1pt)
+- [x] Felhasználókezelés: Kijelentkezés működik (1pt)
+- [x] Jegyfoglalás: Foglalás esetén a szerverről ellenőrizzük, hogy az adott hely még elérhető-e (2pt)
+- [x] Jegyfoglalás: A felhasználó által vásárolt jegyek az adatbázisban mentésre kerülnek a REST API segítségével (2pt)
+- [x] Jegyfoglalás: A felhasználó visszajelzést kap a sikeres/sikertelen foglalásról (1pt)
+- [x] Foglalásaim oldal: A felhasználó foglalásai, és annak információ listázásra kerülnek (2pt)
+- [x] Admin funkciók: Film hozzáadása működik (kép nélkül) (2pt)
+- [x] Admin funkciók: Vetítés hozzáadása működik (2pt)
+- [x] Admin funkciók: Film szerkesztése működik (kép nélkül) (1pt)
+- [x] Admin funkciók: Vetítés szerkesztése működik (1pt)
+- [x] Admin funkciók: Film és vetítés törlése működik (1pt)
+- [x] Admin funkciók: Az admin visszajelzést kap a sikeres/sikertelen film/vetítés módosításokról (2pt)
+- [x] Mobilbarát reszponzív megjelenés, mobilnézetben is jól használható az oldal (2pt)
 
 Összesen: 30 pont (Minimum: 12 pont)
 
 ### Plusz feladatok (+5 pont)
-- [ ] Sötét/világos mód: Az oldalon tudunk váltani sötét/világos módra (2pt)
-- [ ] Modal ablakok: Az admin felületen a vetítések hozzáadása és szerkesztése modal ablakban történik (1pt)
+- [ ] Sötét/világos mód: Az oldalon tudunk váltani sötét/világos módra, ezt a teljes oldal kinézete leköveti (2pt)
+- [ ] Modal komponens: Az admin felületen a vetítések hozzáadása és szerkesztése azonos oldalon, modal komponensben történik (1pt)
 - [ ] Toastok: Az alkalmazás toast üzenetekkel jelzi a következő műveleteket (2pt):
   - Sikeres/sikertelen bejelentkezés
   - Sikeres kijelentkezés
   - Sikeres/sikertelen jegyfoglalás
   - Sikeres/sikertelen film hozzáadás/szerkesztés/törlés
   - Sikeres/sikertelen vetítés hozzáadás/szerkesztés/törlés
-
